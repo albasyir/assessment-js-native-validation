@@ -1,0 +1,31 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  position: relative;
+}
+
+.title {
+  padding-left: 20px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 100%;
+  background-color: violet;
+}
+
+.layout > div {
+  padding: 5px 0;
+}
+
+.input-error-msg {
+  color: red;
+}
